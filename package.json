@@ -1,0 +1,35 @@
+{
+  "name": "reel",
+  "version": "1.0.0",
+  "author": {
+    "name": "Rayfalling",
+    "email": "wanghaiwe.i.1999@163.com",
+    "url": "https://rayfalling.com"
+  },
+  "license": "MIT",
+  "private": true,
+  "repository": "github:wanghaiwei/Reel",
+  "scripts": {
+    "serve": "vue-cli-service serve",
+    "build": "vue-cli-service build"
+  },
+  "dependencies": {
+    "core-js": "^3.6.5",
+    "vue": "^2.6.11",
+    "vue-material": "^1.0.0-beta-14"
+  },
+  "devDependencies": {
+    "@vue/cli-plugin-babel": "~4.4.0",
+    "@vue/cli-service": "~4.4.0",
+    "compression-webpack-plugin": "^3.1.0",
+    "vue-template-compiler": "^2.6.11"
+  },
+  "resolutions": {
+    "@vue/cli-service/webpack-dev-server/chokidar": "^3.4.0"
+  },
+  "browserslist": [
+    "> 1%",
+    "last 2 versions",
+    "not dead"
+  ]
+}
